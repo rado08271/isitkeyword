@@ -16,7 +16,7 @@ class SearchBar extends Component {
 
     handleInput = (event) => {
         let input = event.target.value;
-        this.setState({input});
+        this.setState({input, out: false});
         // console.log(input);
     }
 
@@ -38,13 +38,13 @@ class SearchBar extends Component {
         event.preventDefault();
         var langs = [""];
         if(this.iterateField(keyword.java)){
-            langs.push("java")
+            langs.push("java ")
         }
         if (this.iterateField(keyword.kotlin)) {
-            langs.push("kotlin");
+            langs.push("kotlin ");
         }
         if(this.iterateField(keyword.c)) {
-            langs.push("c");
+            langs.push("c ");
         }
 
         this.setState({langs});
@@ -61,7 +61,7 @@ class SearchBar extends Component {
                     <button type={"submit"}><FontAwesomeIcon icon={['fas', 'search']} /></button>
                 </form>
               </span>
-                {this.state.out ? <p>Yes <b>{this.state.input}</b> is a keyword in {this.state.langs.forEach((x) => console.log(x))}</p> : <p>It's not a keyword</p> }
+                {this.state.out ? <p>Yes <b>{this.state.input}</b> is a keyword in <i>{this.state.langs}</i></p> : <p>It's not a keyword</p> }
             </div>
 
         );
