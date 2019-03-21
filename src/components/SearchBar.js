@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import './faLib';
+import keyword from './Keyword';
 
 class SearchBar extends Component {
     constructor() {
@@ -14,6 +15,7 @@ class SearchBar extends Component {
         this.submit = this.submit.bind(this);
     }
 
+
     handleInput = (event) => {
         let input = event.target.value;
         this.setState({input, out: false});
@@ -22,12 +24,12 @@ class SearchBar extends Component {
 
     iterateField = (string) => {
         for (let x = 0; x < string.length; x++){
-            // console.log(string[x]);
+            console.log(string[x] + " and is " + this.state.input)
             if(this.state.input === string[x]){
                 this.setState({out:true});
                 return true;
             }else {
-                this.setState({out:false});
+                // this.setState({out:false});
             }
         }
         return false;
@@ -49,7 +51,8 @@ class SearchBar extends Component {
 
         this.setState({langs});
 
-        console.log(this.state.langs);
+        console.log(langs);
+        console.log(this.state);
     }
 
     render(){
@@ -66,15 +69,6 @@ class SearchBar extends Component {
 
         );
     }
-}
-
-var keyword = {
-    java :
-        ["abstract", "assert", "boolean", "break", "byte", "case", "catch", "char", "class", "continue", "default", "do", "double", "else", "enum", "exports", "extends", "final", "finally", "float", "for", "if", "implements", "import", "instanceof", "int", "interface", "long", "module", "native", "new", "package", "private", "protected", "public", "requires", "return", "short", "static", "strictfp", "super", "switch", "synchronized", "this", "throw", "throws", "transient", "try", "void", "volatile", "while", "true", "null", "false"] ,
-    kotlin :
-        ["actual", "abstract", "annotation", "companion", "const", "crossline", "data", "enum", "expect", "external", "final", "infix", "inline", "inner", "internal", "lateinit", "noinline", "open", "operator", "out", "override", "private", "protected", "public", "reified", "sealed", "suspend", "tailrec", "vararg"],
-    c :
-        ["auto", "break", "case", "char", "const", "continue", "default", "do", "double", "else", "enum", "extern", "float", "for", "goto", "if", "inline", "int", "long", "register", "restrict", "return", "short", "signed", "sizeof", "static", "struct", "switch", "typedef", "union", "unsigned", "void", "volatile", "while"]
 }
 
 export default SearchBar;
