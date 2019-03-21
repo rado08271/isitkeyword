@@ -1,8 +1,8 @@
 .in-center {
     position: absolute;
-    top: 40%;
+    top: 35%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -65%);
 }
 
 h1 {
@@ -11,4 +11,20 @@ h1 {
     margin: 0 0 64px 0;
     text-transform: uppercase;
     color: rgb(146, 146, 146);
+}
+
+.question-icon {
+    color: #d7d7d7;
+}
+
+.question-icon:hover {
+    color: rgb(73, 73, 73);
+    cursor: pointer;
+    visibility: visible;
+}
+
+.tooltip {
+    position: absolute;
+    top: -30%;
+    color: #929292;
 }
