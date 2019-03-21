@@ -2,98 +2,98 @@
 [
   {
     "id" : 1,
-    "name" : "c",
+    "name" : "C",
     "sensitive" : true,
     "keywords" : ["auto", "break", "case", "char", "const", "continue", "default", "do", "double", "else", "enum", "extern", "float", "for", "goto", "if", "inline", "int", "long", "register", "restrict", "return", "short", "signed", "sizeof", "static", "struct", "switch", "typedef", "union", "unsigned", "void", "volatile", "while"]
   },
 
   {
     "id" : 2,
-    "name" : "cpp",
+    "name" : "C++",
     "sensitive" : true,
     "keywords" : ["#define", "#defined", "#elif", "#else", "#endif", "#error", "#if", "#ifdef", "#ifndef", "#include", "#line", "#pragma", "#undef", "alignas", "alignof", "and", "and_eq", "asm", "atomic_cancel", "atomic_commit", "atomic_noexcept", "auto", "bitand", "bitor", "bool", "break", "case", "catch", "char", "char16_t", "char32_t", "class", "compl", "concept", "const", "constexpr", "const_cast", "continue", "decltype", "default", "delete", "do", "double", "dynamic_cast", "else", "enum", "explicit", "export", "extern", "false", "final", "float", "for", "friend", "goto", "if", "inline", "int", "import", "long", "module", "mutable", "namespace", "new", "noexcept", "not", "not_eq", "nullptr", "operator", "or", "or_eq", "override", "private", "protected", "public", "register", "reinterpret_cast", "requires", "return", "short", "signed", "sizeof", "static", "static_assert", "static_cast", "struct", "switch", "synchronized", "template", "this", "thread_local", "throw", "transaction_safe", "transaction_safe_dynamic", "true", "try", "typedef", "typeid", "typename", "union", "unsigned", "using", "virtual", "void", "volatile", "wchar_t", "while", "xor", "xor_eq"]
   },
   {
     "id" : 3,
-    "name" : "csharp",
+    "name" : "C#",
     "sensitive" : true,
     "keywords" : [ "abstract", "add", "alias", "as", "ascending", "async", "await", "base", "bool", "break", "byte", "case", "catch", "char", "checked", "class", "const", "continue", "decimal", "default", "delegate", "descending", "do", "double", "dynamic", "else", "enum", "event", "explicit", "extern", "false", "finally", "fixed", "float", "for", "foreach", "from", "get", "global", "goto", "group", "if", "implicit", "in", "int", "interface", "internal", "into", "is", "join", "let", "lock", "long", "namespace", "new", "null", "object", "operator", "orderby", "out", "override", "params", "partial", "private", "protected", "public", "readonly", "ref", "remove", "return", "sbyte", "sealed", "select", "set", "short", "sizeof", "stackalloc", "static", "string", "struct", "switch", "this", "throw", "true", "try", "typeof", "uint", "ulong", "unchecked", "unsafe", "ushort", "using", "value", "var", "virtual", "void", "volatile", "where", "while", "yield" ]
   },
   {
     "id" : 4,
-    "name" : "dart",
+    "name" : "Dart",
     "sensitive" : true,
     "keywords" : [ "abstract", "as", "assert", "async", "await", "break", "case", "catch", "class", "const", "continue", "covariant", "default", "deferred", "do", "dynamic", "else", "enum", "export", "extends", "external", "factory", "false", "final", "finally", "for", "get", "if", "implements", "import", "in", "is", "library", "new", "null", "operator", "part", "rethrow", "return", "set", "static", "super", "switch", "sync", "this", "throw", "true", "try", "typedef", "var", "void", "while", "with", "yield" ]
   },
   {
     "id" : 5,
-    "name" : "erlang",
+    "name" : "Erlang",
     "sensitive" : true,
     "keywords" : [ "after", "and", "andalso", "begin", "bnot", "bor", "bsl", "bsr", "bxor", "case", "catch", "cond", "div", "end", "fun", "if", "let", "not", "of", "or", "orelse", "receive", "rem", "try", "when", "xor" ]
   },
   {
     "id" : 6,
-    "name" : "go",
+    "name" : "GO!",
     "sensitive" : true,
     "keywords" : [ "break", "default", "func", "interface", "select", "case", "defer", "go", "map", "struct", "chan", "else", "goto", "package", "switch", "const", "fallthrough", "if", "range", "type", "continue", "for", "import", "return", "var" ]
   },
   {
     "id" : 7,
-    "name" : "java",
+    "name" : "Java",
     "sensitive" : true,
     "keywords" : ["abstract", "assert", "boolean", "break", "byte", "case", "catch", "char", "class", "continue", "default", "do", "double", "else", "enum", "exports", "extends", "final", "finally", "float", "for", "if", "implements", "import", "instanceof", "int", "interface", "long", "module", "native", "new", "package", "private", "protected", "public", "requires", "return", "short", "static", "strictfp", "super", "switch", "synchronized", "this", "throw", "throws", "transient", "try", "void", "volatile", "while", "true", "null", "false"]
   },
   {
     "id" : 8,
-    "name" : "javascript",
+    "name" : "JavaScript",
     "sensitive" : true,
     "keywords" : [ "arguments", "await", "break", "case", "catch", "class", "const", "continue", "debugger", "default", "delete", "do", "else", "enum", "eval", "export", "extends", "false", "finally", "for", "from", "function", "if", "implements", "import", "in", "instanceof", "interface", "let", "new", "null", "package", "private", "protected", "public", "return", "static", "super", "switch", "this", "throw", "true", "try", "typeof", "var", "void", "while", "with", "yield" ]
   },
   {
     "id" : 9,
-    "name" : "kotlin",
+    "name" : "Kotlin",
     "sensitive" : true,
     "keywords" : ["actual", "abstract", "annotation", "companion", "const", "crossline", "data", "enum", "expect", "external", "final", "infix", "inline", "inner", "internal", "lateinit", "noinline", "open", "operator", "out", "override", "private", "protected", "public", "reified", "sealed", "suspend", "tailrec", "vararg", "package", "as", "typealias", "class", "this", "super", "val", "var", "fun", "for", "is", "in", "throw", "return", "break", "continue", "object", "if", "try", "else", "while", "do", "when", "interface", "typeof"]
   },
   {
     "id" : 10,
-    "name" : "php",
+    "name" : "PHP",
     "sensitive" : true,
     "keywords" : [ "__halt_compiler", "abstract", "and", "array", "as", "break", "callable", "case", "catch", "class", "clone", "const", "continue", "declare", "default", "die", "do", "echo", "else", "elseif", "empty", "enddeclare", "endfor", "endforeach", "endif", "endswitch", "endwhile", "eval", "exit", "extends", "final", "for", "foreach", "function", "global", "goto", "if", "implements", "include", "include_once", "instanceof", "insteadof", "interface", "isset", "list", "namespace", "new", "or", "print", "private", "protected", "public", "require", "require_once", "return", "static", "switch", "throw", "trait", "try", "unset", "use", "var", "while", "xor" ]
   },
   {
     "id" : 11,
-    "name" : "python",
+    "name" : "Python",
     "sensitive" : true,
     "keywords" : ["False", "None", "True", "and", "as", "assert", "break", "class", "continue", "def", "del", "elif", "else", "except", "finally", "for", "from", "global", "if", "import", "in", "is", "lambda", "nonlocal", "not", "or", "pass", "raise", "return", "try", "while", "with", "yield"]
   },
   {
     "id" : 12,
-    "name" : "ruby",
+    "name" : "Ruby",
     "sensitive" : true,
     "keywords" : [ "alias", "and", "begin", "break", "case", "class", "def", "defined?", "do", "else", "elsif", "end", "ensure", "false", "for", "if", "in", "module", "next", "nil", "not", "or", "redo", "rescue", "retry", "return", "self", "super", "then", "true", "undef", "unless", "until", "when", "while", "yield" ]
   },
   {
     "id" : 13,
-    "name" : "rust",
+    "name" : "Rust",
     "sensitive" : true,
     "keywords" : [ "as", "use", "extern crate", "break", "const", "continue", "crate", "else", "if", "if let", "enum", "extern", "false", "fn", "for", "if", "impl", "in", "for", "let", "loop", "match", "mod", "move", "mut", "pub", "impl", "ref", "return", "Self", "self", "static", "struct", "super", "trait", "true", "type", "unsafe", "use", "where", "while", "abstract", "alignof", "become", "box", "do", "final", "macro", "offsetof", "override", "priv", "proc", "pure", "sizeof", "typeof", "unsized", "virtual", "yield" ]
   },
   {
     "id" : 14,
-    "name" : "sql",
+    "name" : "Sql",
     "sensitive" : false,
     "keywords" : [ "add", "external", "procedure", "all", "fetch", "public", "alter", "file", "raiserror", "and", "fillfactor", "read", "any", "for", "readtext", "as", "foreign", "reconfigure", "asc", "freetext", "references", "authorization", "freetexttable", "replication", "backup", "from", "restore", "begin", "full", "restrict", "between", "function", "return", "break", "goto", "revert", "browse", "grant", "revoke", "bulk", "group", "right", "by", "having", "rollback", "cascade", "holdlock", "rowcount", "case", "identity", "rowguidcol", "check", "identity_insert", "rule", "checkpoint", "identitycol", "save", "close", "if", "schema", "clustered", "in", "securityaudit", "coalesce", "index", "select", "collate", "inner", "semantickeyphrasetable", "column", "insert", "semanticsimilaritydetailstable", "commit", "intersect", "semanticsimilaritytable", "compute", "into", "session_user", "constraint", "is", "set", "contains", "join", "setuser", "containstable", "key", "shutdown", "continue", "kill", "some", "convert", "left", "statistics", "create", "like", "system_user", "cross", "lineno", "table", "current", "load", "tablesample", "current_date", "merge", "textsize", "current_time", "national", "then", "current_timestamp", "nocheck", "to", "current_user", "nonclustered", "top", "cursor", "not", "tran", "database", "null", "transaction", "dbcc", "nullif", "trigger", "deallocate", "of", "truncate", "declare", "off", "try_convert", "default", "offsets", "tsequal", "delete", "on", "union", "deny", "open", "unique", "desc", "opendatasource", "unpivot", "disk", "openquery", "update", "distinct", "openrowset", "updatetext", "distributed", "openxml", "use", "double", "option", "user", "drop", "or", "values", "dump", "order", "varying", "else", "outer", "view", "end", "over", "waitfor", "errlvl", "percent", "when", "escape", "pivot", "where", "except", "plan", "while", "exec", "precision", "with", "execute", "primary", "within group", "exists", "print", "writetext", "exit", "proc" ]
   },
   {
     "id" : 15,
-    "name" : "swift",
+    "name" : "Swift",
     "sensitive" : true,
     "keywords" : [ "associatedtype", "class", "deinit", "enum", "extension", "func", "import", "init", "inout", "internal", "let", "operator", "private", "protocol", "public", "static", "struct", "subscript", "typealias", "var", "break", "case", "continue", "default", "defer", "do", "else", "fallthrough", "for", "guard", "if", "in", "repeat", "return", "switch", "where", "while", "as", "catch", "dynamicType", "false", "is", "nil", "rethrows", "super", "self", "Self", "throw", "throws", "true", "try", "#column", "#file", "#function", "#line", "#available", "#column", "#else#elseif", "#endif", "#file", "#function", "#if", "#line", "#selector", "associativity", "convenience", "dynamic", "didSet", "final", "get", "infix", "indirect", "lazy", "left", "mutating", "none", "nonmutating", "optional", "override", "postfix", "precedence", "prefix", "Protocol", "required", "right", "set", "Type", "unowned", "weak", "willSet" ]
   },
   {
     "id" : 16,
-    "name" : "typescript",
+    "name" : "TypeScript",
     "sensitive" : true,
     "keywords" : [ "break", "case", "catch", "class", "const", "continue", "debugger", "default", "delete", "do", "else", "enum", "export", "extends", "false", "finally", "for", "function", "if", "import", "in", "instanceof", "new", "null", "return", "super", "switch", "this", "throw", "true", "try", "typeof", "var", "void", "while", "with", "as", "implements", "interface", "let", "package", "private", "protected", "public", "static", "yield", "any", "boolean", "constructor", "declare", "get", "module", "require", "number", "set", "string", "symbol", "type", "from", "of" ]
   }
