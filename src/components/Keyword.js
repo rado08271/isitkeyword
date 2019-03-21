@@ -1,4 +1,4 @@
-var keyword = {
+var Keyword = {
     java :
         ["abstract", "assert", "boolean", "break", "byte", "case", "catch", "char", "class", "continue", "default", "do", "double", "else", "enum", "exports", "extends", "final", "finally", "float", "for", "if", "implements", "import", "instanceof", "int", "interface", "long", "module", "native", "new", "package", "private", "protected", "public", "requires", "return", "short", "static", "strictfp", "super", "switch", "synchronized", "this", "throw", "throws", "transient", "try", "void", "volatile", "while", "true", "null", "false"] ,
     kotlin :
@@ -33,7 +33,4 @@ var keyword = {
         [ "add", "external", "procedure", "all", "fetch", "public", "alter", "file", "raiserror", "and", "fillfactor", "read", "any", "for", "readtext", "as", "foreign", "reconfigure", "asc", "freetext", "references", "authorization", "freetexttable", "replication", "backup", "from", "restore", "begin", "full", "restrict", "between", "function", "return", "break", "goto", "revert", "browse", "grant", "revoke", "bulk", "group", "right", "by", "having", "rollback", "cascade", "holdlock", "rowcount", "case", "identity", "rowguidcol", "check", "identity_insert", "rule", "checkpoint", "identitycol", "save", "close", "if", "schema", "clustered", "in", "securityaudit", "coalesce", "index", "select", "collate", "inner", "semantickeyphrasetable", "column", "insert", "semanticsimilaritydetailstable", "commit", "intersect", "semanticsimilaritytable", "compute", "into", "session_user", "constraint", "is", "set", "contains", "join", "setuser", "containstable", "key", "shutdown", "continue", "kill", "some", "convert", "left", "statistics", "create", "like", "system_user", "cross", "lineno", "table", "current", "load", "tablesample", "current_date", "merge", "textsize", "current_time", "national", "then", "current_timestamp", "nocheck", "to", "current_user", "nonclustered", "top", "cursor", "not", "tran", "database", "null", "transaction", "dbcc", "nullif", "trigger", "deallocate", "of", "truncate", "declare", "off", "try_convert", "default", "offsets", "tsequal", "delete", "on", "union", "deny", "open", "unique", "desc", "opendatasource", "unpivot", "disk", "openquery", "update", "distinct", "openrowset", "updatetext", "distributed", "openxml", "use", "double", "option", "user", "drop", "or", "values", "dump", "order", "varying", "else", "outer", "view", "end", "over", "waitfor", "errlvl", "percent", "when", "escape", "pivot", "where", "except", "plan", "while", "exec", "precision", "with", "execute", "primary", "within group", "exists", "print", "writetext", "exit", "proc" ]
 }
 
-
-
-
-export default keyword;
+export default Keyword;

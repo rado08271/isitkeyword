@@ -9,7 +9,7 @@ class App extends Component {
   render() {
     return (
         <div className={"container"}>
-            <div className={"inCenter"}>
+            <div className={"in-center"}>
                 <h1>Is it Keyword?</h1>
                 <SearchBar/>
             </div>

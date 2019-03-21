@@ -1,15 +1,29 @@
-.container {
-
+.input-field {
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
-.inputField {
-
+.form-field {
+    margin: 16px;
+    display: inline-flex;
+    border-radius: 10px;
 }
 
-.formField {
-
+.input-in {
+    padding: 6px;
+    overflow: hidden;
 }
 
-.inputIn {
-
+.button-fa {
+    overflow: hidden;
 }
+
+.search-icon {
+    font-size: 1em;
+}
+
+p {
+    text-align: center;
+}
+
