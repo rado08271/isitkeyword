@@ -25,6 +25,10 @@ h1 {
 
 .tooltip {
     position: absolute;
-    top: -30%;
+    top: -40%;
     color: #929292;
+}
+
+.contact {
+    color: #92453f;
 }

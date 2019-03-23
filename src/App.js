@@ -36,8 +36,10 @@ class App extends Component {
 
 const toolTip =
     <div className={"tooltip"}>
-        <p>Write a keyword you think of. If it is keyword, language will be shown.
-            If it's not exactly written in case of case sensitive language, it will be shown in orange otherwise in green</p>
+        <p>Write a keyword you think of. If it is a keyword, specific language will be shown.
+            In case of case sensitive language, it will be shown in orange otherwise in green...
+            Bear in mind it's just development build! Still in progress...feel free to cantact
+            me <a className={"contact"} href={"meilto:contact@rafig.eu"}>contact@rafig.eu</a></p>
     </div>
 
 export default App;
