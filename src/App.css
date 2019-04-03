@@ -1,8 +1,12 @@
 .in-center {
     position: absolute;
-    top: 35%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -65%);
+}
+
+.container {
+    width: 40%;
 }
 
 h1 {
@@ -23,10 +27,20 @@ h1 {
     visibility: visible;
 }
 
-.tooltip {
-    position: absolute;
-    top: -40%;
-    color: #929292;
+@media only screen and (min-width: 978px){
+    .tooltip {
+        position: absolute;
+        bottom: 0;
+        color: #929292;
+    }
+ }
+
+@media only screen and (max-width: 977px) {
+    .tooltip {
+        position: absolute;
+        bottom: 0;
+        color: #929292;
+    }
 }
 
 .contact {

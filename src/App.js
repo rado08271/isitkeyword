@@ -10,7 +10,7 @@ class App extends Component {
         super(props);
         this.state = {
             clicked: false
-        }
+        };
         this.hoverHandler = this.hoverHandler.bind(this);
 
     }
@@ -25,10 +25,11 @@ class App extends Component {
         return (
             <div className={"container"}>
                 <div className={"in-center"}>
-                    {this.state.clicked ? toolTip : ""}
                     <h1>Is it Keyword<FontAwesomeIcon icon={['fas', 'question']} className={"question-icon"} onClick={this.hoverHandler}/></h1>
                     <SearchBar/>
+                    {/*{console.log(value)}*/}
                 </div>
+                {this.state.clicked ? toolTip : ""}
             </div>
         )
     }
