@@ -1,0 +1,27 @@
+.shown {
+    /*visibility: visible;*/
+    color: #0b9c06;
+    border-bottom: solid #bbbbbb 2px;
+    text-align: center;
+    margin: 5px;
+}
+
+.hidden {
+    color: black;
+    border-bottom: solid #bbbbbb 2px;
+    text-align: center;
+    margin: 5px;
+}
+
+.checkBoxes {
+    width: 30%;
+    border-right: solid #bbbbbb 5px;
+}
+
+label {
+    width: 100%;
+}
+
+.pickLang {
+    visibility: hidden;
+}
